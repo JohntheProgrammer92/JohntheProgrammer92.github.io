@@ -1,0 +1,42 @@
+html,body{
+    background: linear-gradient(to top right, #19193e, #242351);
+    background-repeat: no-repeat;
+    height:100lvh;
+    overflow: hidden;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    z-index: 1;
+}
+.card{
+    box-shadow: -25px 0px 50px -10px  #000;
+    width: 80vw;
+    top: 0px;
+    height: 100vh;
+    margin-top: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: linear-gradient(to top right, #040614, #2e2e36);
+    z-index: 3;
+    position: absolute;
+    
+}
+.corner{
+    height: 75vh;
+    width: 30vw;
+    max-height: calc(75vw);
+    max-width: calc(75vh);
+    left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    position: fixed;
+    background-image: conic-gradient(at 60% 50%,
+    #a5087d 180deg,
+    #a5087d 255deg,
+    #a30862 255deg,
+    #a30862 313deg,
+    #bd0e43 313deg);
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+    z-index: 2;
+}
